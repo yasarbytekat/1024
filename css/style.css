@@ -1,0 +1,126 @@
+
+
+html * {
+	-webkit-text-stroke: 1px rgba(45,45,45,0.1);
+	text-shadow: #AAA 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+	background-color: #CDCDCD;
+}
+
+table {
+	text-align: center;
+	font-size: 38px;
+	border-collapse: separate;
+	border: 2px solid #ABABAB;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+	height: 125px;
+}
+
+#separator-border {
+	border: 2px dotted #FF0000;
+}
+
+#score {
+	font-size: 18pt !important;
+	text-align: center;
+}
+
+.white-background {
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	border: 1px solid #CDCDCD;
+}
+
+#game-over-popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -75px;
+	z-index: 100;
+	width: 300px;
+	height: 150px;
+	opacity: 0.8;
+	background-color: #000000;
+	display: none;
+}
+
+#game-over-popup .game-over-text {
+	width: 100%;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 28pt;
+	text-align: center;
+	line-height: 75px;
+}
+
+#game-over-popup .dismiss-button {
+	text-align: center;
+	width: 100%;
+}
+
+#dismiss-gameover-popup-button {
+	opacity: 1 !important;
+	background-color: #EE2323;
+	width: 100px;
+	border: 1px solid #FF0000;
+	padding: 12px;
+	border-radius: 2px;
+	color: #FFFFFF;
+}
+
+#dismiss-gameover-popup-button:hover {
+	opacity: 1 !important;
+	background-color: #AA2323;
+	border: 1px solid #FF0000;
+	padding: 12px;
+	border-radius: 2px;
+	color: #FFFFFF;
+}
+
+#highScore {
+	color: #22AA22;
+	font-size: 10pt;
+}
+
+.high-score-text {
+	font-size: 10pt !important;
+}
+
+#restart-game {
+	background-color: #AAFFAA;
+	border-radius: 0px !important;
+	width: 100px;
+	padding: 12px;
+	border: 1px solid #99CC99;
+}
+
+#restart-game:hover {
+	background-color: #99CC99;
+	border-radius: 0px !important;
+	width: 100px;
+	border: 1px solid #99CC99;
+	box-shadow: 1px 1px 3px #99CC99;
+}
