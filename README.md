@@ -1,2 +1,1 @@
-This is a clone of 2048 made using javascript.
-Work in progress.
+This game is developed by Bytekat
